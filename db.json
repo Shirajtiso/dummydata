@@ -1,262 +1,263 @@
 {
-  "vendor": {
-    "results": [
-      {
-        "_id": "23847238472384",
-        "image": "Another Sample Image URL",
-        "companyRef": "9818918",
-        "name": "Second Vendor",
-        "tags": [
-          "Tag3",
-          "Tag4"
-        ],
-        "website": "Second Vendor Website",
-        "contactName": "Another Contact Name",
-        "email": "secondvendor@example.com",
-        "phone": "987-654-3210",
-        "orderEmail": "orders2@example.com",
-        "vendorAverageFulfilment": 3.8,
-        "averageShippingDay": 5,
-        "address": {
-          "address1": "Second Vendor Address",
-          "address2": "Second Vendor Address",
-          "city": "New York",
-          "postalCode": "10001",
-          "country": "USA",
-          "state": "NY"
+    "vendor": {
+      "results": [
+        {
+          "_id": "23847238472384",
+          "image": "Another Sample Image URL",
+          "companyRef": "9818918",
+          "name": "Second Vendor",
+          "tags": [
+            "Tag3",
+            "Tag4"
+          ],
+          "website": "Second Vendor Website",
+          "contactName": "Another Contact Name",
+          "email": "secondvendor@example.com",
+          "phone": "987-654-3210",
+          "orderEmail": "orders2@example.com",
+          "vendorAverageFulfilment": 3.8,
+          "averageShippingDay": 5,
+          "address": {
+            "address1": "Second Vendor Address",
+            "address2": "Second Vendor Address",
+            "city": "New York",
+            "postalCode": "10001",
+            "country": "USA",
+            "state": "NY"
+          },
+          "note": "More Additional Notes",
+          "status": "active"
         },
-        "note": "More Additional Notes",
-        "status": "active"
-      },
+        {
+          "_id": "38472384902384",
+          "image": "Yet Another Sample Image URL",
+          "companyRef": "976818918",
+          "name": "Third Vendor",
+          "tags": [
+            "Tag5",
+            "Tag6"
+          ],
+          "website": "Third Vendor Website",
+          "contactName": "Third Contact Name",
+          "email": "thirdvendor@example.com",
+          "phone": "555-123-4567",
+          "orderEmail": "orders3@example.com",
+          "vendorAverageFulfilment": 4.2,
+          "averageShippingDay": 6,
+          "address": {
+            "address1": "Third Vendor Address",
+            "address2": "Third Vendor Address",
+            "city": "Los Angeles",
+            "postalCode": "90001",
+            "country": "USA",
+            "state": "CA"
+          },
+          "note": "Even More Additional Notes",
+          "status": "active"
+        }
+      ],
+      "total": 3
+    },
+    "vendorcreate": [
       {
-        "_id": "38472384902384",
-        "image": "Yet Another Sample Image URL",
-        "companyRef": "976818918",
-        "name": "Third Vendor",
+        "image": "",
+        "companyRef": "650c09d146324af3c05d971e",
+        "name": "vendorone",
         "tags": [
-          "Tag5",
-          "Tag6"
+          [
+            [
+              [
+                "jhbjk"
+              ]
+            ]
+          ]
         ],
-        "website": "Third Vendor Website",
-        "contactName": "Third Contact Name",
-        "email": "thirdvendor@example.com",
-        "phone": "555-123-4567",
-        "orderEmail": "orders3@example.com",
-        "vendorAverageFulfilment": 4.2,
-        "averageShippingDay": 6,
+        "website": "website",
+        "contactName": "name",
+        "email": "email@gmail.com",
+        "phone": "+966-38374483847",
+        "orderEmail": "email@gmail.com",
+        "vendorAverageFulfilment": "4",
+        "averageShippingDay": "6",
         "address": {
-          "address1": "Third Vendor Address",
-          "address2": "Third Vendor Address",
-          "city": "Los Angeles",
-          "postalCode": "90001",
-          "country": "USA",
-          "state": "CA"
+          "address1": "hyd",
+          "address2": "",
+          "postalCode": "78273",
+          "city": "hyd",
+          "country": "Saudi Arabia",
+          "state": ""
         },
-        "note": "Even More Additional Notes",
+        "note": "notes",
+        "status": "active",
+        "id": "-tzTP3A"
+      }
+    ],
+    "product": [
+      {
+    "id": "650d2ae146324af3c0638937",
+    "name": {
+      "en": "Product en",
+      "ar": "product ar"
+    },
+    "image": "",
+    "description": "",
+    "company": {
+      "name": "SHIRAj"
+    },
+    "companyRef": "650c09d146324af3c05d971e",
+    "categoryRef": "650d2a4446324af3c0638894",
+    "category": {
+      "name": "Category"
+    },
+    "brandRef": "64c360c377e2da9600410466",
+    "brand": {
+      "name": "Almarai"
+    },
+    "taxRef": "64c38dbea37cface27cb977c",
+    "tax": {
+      "percentage": 5
+    },
+    "variants": [
+      {
+        "name": {
+          "en": "Varent en",
+          "ar": "varient ar"
+        },
+        "sku": "873228323",
+        "image": "",
+        "unit": "perItem",
+        "price": 200,
+        "prices": [
+          {
+            "locationRef": "650d2ac146324af3c063890a",
+            "location": {
+              "name": "Hyd"
+            },
+            "price": 200,
+            "overriden": false
+          }
+        ],
+        "assignedToAll": true,
+        "locationRefs": [],
+        "locations": [],
         "status": "active"
       }
     ],
-    "total": 3
+    "status": "active",
+    "createdAt": "2023-09-22T05:49:21.391Z",
+    "updatedAt": "2023-09-22T05:49:21.391Z",
+    "__v": 0
   },
-  "vendorcreate": [
-    {
-      "image": "",
-      "companyRef": "650c09d146324af3c05d971e",
-      "name": "vendorone",
-      "tags": [
-        [
-          [
-            [
-              "jhbjk"
-            ]
-          ]
-        ]
-      ],
-      "website": "website",
-      "contactName": "name",
-      "email": "email@gmail.com",
-      "phone": "+966-38374483847",
-      "orderEmail": "email@gmail.com",
-      "vendorAverageFulfilment": "4",
-      "averageShippingDay": "6",
-      "address": {
-        "address1": "hyd",
-        "address2": "",
-        "postalCode": "78273",
-        "city": "hyd",
-        "country": "Saudi Arabia",
-        "state": ""
-      },
-      "note": "notes",
-      "status": "active",
-      "id": "-tzTP3A"
-    }
-  ],
-  "product": [
-    {
-  id: "650d2ae146324af3c0638937",
-  name: {
-    en: "Product en",
-    ar: "product ar"
-  },
-  image: "",
-  description: "",
-  company: {
-    name: "SHIRAj"
-  },
-  companyRef: "650c09d146324af3c05d971e",
-  categoryRef: "650d2a4446324af3c0638894",
-  category: {
-    name: "Category"
-  },
-  brandRef: "64c360c377e2da9600410466",
-  brand: {
-    name: "Almarai"
-  },
-  taxRef: "64c38dbea37cface27cb977c",
-  tax: {
-    percentage: 5
-  },
-  variants: [
-    {
-      name: {
-        en: "Varent en",
-        ar: "varient ar"
-      },
-      sku: "873228323",
-      image: "",
-      unit: "perItem",
-      price: 200,
-      prices: [
-        {
-          locationRef: "650d2ac146324af3c063890a",
-          location: {
-            name: "Hyd"
-          },
-          price: 200,
-          overriden: false
-        }
-      ],
-      assignedToAll: true,
-      locationRefs: [],
-      locations: [],
-      status: "active"
-    }
-  ],
-  status: "active",
-  createdAt: "2023-09-22T05:49:21.391Z",
-  updatedAt: "2023-09-22T05:49:21.391Z",
-  __v: 0
-},
-   {
-  id: "7bd837d3g887",
-  name: {
-    en: "Product 2 en",
-    ar: "Product 2 ar"
-  },
-  image: "image_url2",
-  description: "Description 2",
-  company: {
-    name: "Company 2"
-  },
-  companyRef: "CompanyRef2",
-  categoryRef: "CategoryRef2",
-  category: {
-    name: "Category 2"
-  },
-  brandRef: "BrandRef2",
-  brand: {
-    name: "Brand 2"
-  },
-  taxRef: "TaxRef2",
-  tax: {
-    percentage: 10
-  },
-  variants: [
-    {
-      name: {
-        en: "Variant 2 en",
-        ar: "Variant 2 ar"
-      },
-      sku: "VariantSku2",
-      image: "variant_image_url2",
-      unit: "perItem",
-      price: 300,
-      prices: [
-        {
-          locationRef: "LocationRef2",
-          location: {
-            name: "Location 2"
-          },
-          price: 300,
-          overriden: false
-        }
-      ],
-      assignedToAll: true,
-      locationRefs: [],
-      locations: [],
-      status: "active"
-    }
-  ],
-  status: "active",
-  createdAt: "2023-09-23T08:00:00.000Z",
-  updatedAt: "2023-09-23T08:00:00.000Z",
-  __v: 1
-},  
-{
-  id: "asuy782b7dg87",
-  name: {
-    en: "Product 3 en",
-    ar: "Product 3 ar"
-  },
-  image: "image_url3",
-  description: "Description 3",
-  company: {
-    name: "Company 3"
-  },
-  companyRef: "CompanyRef3",
-  categoryRef: "CategoryRef3",
-  category: {
-    name: "Category 3"
-  },
-  brandRef: "BrandRef3",
-  brand: {
-    name: "Brand 3"
-  },
-  taxRef: "TaxRef3",
-  tax: {
-    percentage: 15
-  },
-  variants: [
-    {
-      name: {
-        en: "Variant 3 en",
-        ar: "Variant 3 ar"
-      },
-      sku: "VariantSku3",
-      image: "variant_image_url3",
-      unit: "perItem",
-      price: 400,
-      prices: [
-        {
-          locationRef: "LocationRef3",
-          location: {
-            name: "Location 3"
-          },
-          price: 400,
-          overriden: false
-        }
-      ],
-      assignedToAll: true,
-      locationRefs: [],
-      locations: [],
-      status: "active"
-    }
-  ],
-  status: "active",
-  createdAt: "2023-09-24T10:00:00.000Z",
-  updatedAt: "2023-09-24T10:00:00.000Z",
-  __v: 2
-}
-  ],
-}
+     {
+    "id": "7bd837d3g887",
+    "name": {
+      "en": "Product 2 en",
+      "ar": "Product 2 ar"
+    },
+    "image": "image_url2",
+    "description": "Description 2",
+    "company": {
+      "name": "Company 2"
+    },
+    "companyRef": "CompanyRef2",
+    "categoryRef": "CategoryRef2",
+    "category": {
+      "name": "Category 2"
+    },
+    "brandRef": "BrandRef2",
+    "brand": {
+      "name": "Brand 2"
+    },
+    "taxRef": "TaxRef2",
+    "tax": {
+      "percentage": 10
+    },
+    "variants": [
+      {
+        "name": {
+          "en": "Variant 2 en",
+          "ar": "Variant 2 ar"
+        },
+        "sku": "VariantSku2",
+        "image": "variant_image_url2",
+        "unit": "perItem",
+        "price": 300,
+        "prices": [
+          {
+            "locationRef": "LocationRef2",
+            "location": {
+              "name": "Location 2"
+            },
+            "price": 300,
+            "overriden": false
+          }
+        ],
+        "assignedToAll": true,
+        "locationRefs": [],
+        "locations": [],
+        "status": "active"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2023-09-23T08:00:00.000Z",
+    "updatedAt": "2023-09-23T08:00:00.000Z",
+    "__v": 1
+  },  
+  {
+    "id": "asuy782b7dg87",
+    "name": {
+      "en": "Product 3 en",
+      "ar": "Product 3 ar"
+    },
+    "image": "image_url3",
+    "description": "Description 3",
+    "company": {
+      "name": "Company 3"
+    },
+    "companyRef": "CompanyRef3",
+    "categoryRef": "CategoryRef3",
+    "category": {
+      "name": "Category 3"
+    },
+    "brandRef": "BrandRef3",
+    "brand": {
+      "name": "Brand 3"
+    },
+    "taxRef": "TaxRef3",
+    "tax": {
+      "percentage": 15
+    },
+    "variants": [
+      {
+        "name": {
+          "en": "Variant 3 en",
+          "ar": "Variant 3 ar"
+        },
+        "sku": "VariantSku3",
+        "image": "variant_image_url3",
+        "unit": "perItem",
+        "price": 400,
+        "prices": [
+          {
+            "locationRef": "LocationRef3",
+            "location": {
+              "name": "Location 3"
+            },
+            "price": 400,
+            "overriden": false
+          }
+        ],
+        "assignedToAll": true,
+        "locationRefs": [],
+        "locations": [],
+        "status": "active"
+      }
+    ],
+    "status": "active",
+    "createdAt": "2023-09-24T10:00:00.000Z",
+    "updatedAt": "2023-09-24T10:00:00.000Z",
+    "__v": 2
+  }
+    ]
+  }
+  
