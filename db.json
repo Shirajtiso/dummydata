@@ -53,7 +53,9 @@
             "state": "CA"
           },
           "note": "Even More Additional Notes",
-          "status": "active"
+          "status": "active",
+            "createdAt": "2023-09-22T05:49:21.391Z",
+  "updatedAt": "2023-09-22T05:49:21.391Z",
         }
       ],
       "total": 3
@@ -62,20 +64,14 @@
       {
         "image": "",
         "companyRef": "650c09d146324af3c05d971e",
-        "name": "vendorone",
+        "name": "Vendor One",
         "tags": [
-          [
-            [
-              [
                 "jhbjk"
-              ]
-            ]
-          ]
-        ],
+              ],
         "website": "website",
         "contactName": "name",
         "email": "email@gmail.com",
-        "phone": "+966-38374483847",
+        "phone": "+966-3837443847",
         "orderEmail": "email@gmail.com",
         "vendorAverageFulfilment": "4",
         "averageShippingDay": "6",
@@ -89,7 +85,37 @@
         },
         "note": "notes",
         "status": "active",
-        "id": "-tzTP3A"
+        "id": "-tzTP3A",
+          "createdAt": "2023-09-22T05:49:21.391Z",
+  "updatedAt": "2023-09-22T05:49:21.391Z",
+      },
+        {
+        "image": "",
+        "companyRef": "650c09d146324af3c05d971e",
+        "name": "Vendor two",
+        "tags": [
+                "jhbjk"
+              ],
+        "website": "website",
+        "contactName": "name",
+        "email": "email@gmail.com",
+        "phone": "+966-3837443847",
+        "orderEmail": "email@gmail.com",
+        "vendorAverageFulfilment": "4",
+        "averageShippingDay": "6",
+        "address": {
+          "address1": "hyd",
+          "address2": "",
+          "postalCode": "78273",
+          "city": "hyd",
+          "country": "Saudi Arabia",
+          "state": ""
+        },
+        "note": "notes",
+        "status": "active",
+        "id": "878tzTP3A",
+          "createdAt": "2023-10-22T05:49:21.391Z",
+  "updatedAt": "2023-10-22T05:49:21.391Z",
       }
     ],
     "product": [
