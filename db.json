@@ -1,344 +1,314 @@
 {
-    "vendor": {
-      "results": [
-        {
-  "vendorRef": "tzTP3A",
-  "vendor": { "name": "VendorName" },
-  "productRef": "ProductObjectId456",
-            "name":"name",
-  "companyRef": "CompanyObjectId789",
-  "variants": [
-    {
-      "name": { "en": "VariantName", "ar": "Nom de la variante" },
-      "sku": "VariantSKU123",
-      "parentSku": null,
-      "type": "item",
-      "unit": "perGram",
-      "price": 5.99,
-      "costPrice": 5.99,
-      "prices": [
-        {
-          "locationRef": "LocationObjectId1",
-          "location": { "name": "LocationName1" },
-          "price": 5.99,
-          "costPrice": 5.99,
-          "overriden": false
-        }
-      ],
-      "assignedToAll": true,
-      "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
-      "locations": [{ "name": "LocationName1" }, { "name": "LocationName2" }],
-      "status": "active"
-    }
-  ],
-  "boxes": [
-    {
-      "name": { "en": "VariantName", "fr": "Nom de la variante" },
-      "sku": "BOXVariantSKU123",
-      "parentSku": "VariantSKU123",
-      "type": "box",
-      "unit": "perGram",
-      "price": 5.99,
-      "costPrice": 5.99,
-      "prices": [
-        {
-          "locationRef": "LocationObjectId1",
-          "location": { "name": "LocationName1" },
-          "price": 5.99,
-          "costPrice": 5.99,
-          "overriden": false
-        }
-      ],
-      "assignedToAll": true,
-      "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
-      "locations": [{ "name": "LocationName1" }, { "name": "LocationName2" }],
-      "status": "active"
-    }
-  ]
-},
+  "products": {
+    "results": [
+      {
+        "_id": "650e86b146324af3c063b88f",
+        "name": {
+          "en": "products new",
+          "ar": "new pro"
+        },
+        "image": "",
+        "description": "",
+        "company": {
+          "name": "SHIRAj"
+        },
+        "companyRef": "650c09d146324af3c05d971e",
+        "categoryRef": "650d2a4446324af3c0638894",
+        "category": {
+          "name": "Category"
+        },
+        "brandRef": "64c360c377e2da9600410466",
+        "brand": {
+          "name": "Almarai"
+        },
+        "taxRef": "64c3600a77e2da9600410416",
+        "tax": {
+          "percentage": 15
+        },
+        "variants": [
           {
-  "vendorRef": "tzTP3A",
-  "vendor": { "name": "VendorName" },
-               "name":"name2",
-  "productRef": "ProductObjectId456",
-  "companyRef": "CompanyObjectId789",
-  "variants": [
+            "name": {
+              "en": "new pro vand",
+              "ar": "new pro vand"
+            },
+            "sku": "7621676",
+            "image": "",
+            "unit": "perKilogram",
+            "price": 76,
+            "prices": [
+              {
+                "locationRef": "650d2ac146324af3c063890a",
+                "location": {
+                  "name": "Hyd"
+                },
+                "price": 76,
+                "overriden": false
+              }
+            ],
+            "assignedToAll": true,
+            "locationRefs": [],
+            "locations": [],
+            "status": "active"
+          }
+        ],
+        "status": "active",
+        "createdAt": "2023-09-23T06:33:21.922Z",
+        "updatedAt": "2023-09-23T06:33:21.922Z",
+        "__v": 0
+      },
+      {
+        "_id": "650d2ae146324af3c0638937",
+        "name": {
+          "en": "Product en",
+          "ar": "product ar"
+        },
+        "image": "",
+        "description": "",
+        "companyRef": "650c09d146324af3c05d971e",
+        "categoryRef": "650d2a4446324af3c0638894",
+        "category": {
+          "name": "Category"
+        },
+        "brandRef": "64c360c377e2da9600410466",
+        "brand": {
+          "name": "Almarai"
+        },
+        "taxRef": "64c38dbea37cface27cb977c",
+        "tax": {
+          "percentage": 5
+        },
+        "variants": [
+          {
+            "name": {
+              "en": "Varent en",
+              "ar": "varient ar"
+            },
+            "sku": "873228323",
+            "image": "",
+            "unit": "perItem",
+            "price": 200,
+            "prices": [
+              {
+                "locationRef": "650d2ac146324af3c063890a",
+                "location": {
+                  "name": "Hyd"
+                },
+                "price": 200,
+                "overriden": false
+              }
+            ],
+            "assignedToAll": true,
+            "locationRefs": [],
+            "locations": [],
+            "status": "active"
+          },
+          {
+            "name": {
+              "en": "new varient",
+              "ar": "new Varient"
+            },
+            "sku": "123421",
+            "image": "",
+            "unit": "perItem",
+            "price": 100,
+            "prices": [
+              {
+                "locationRef": "650d2ac146324af3c063890a",
+                "location": {
+                  "name": "Hyd"
+                },
+                "price": 100,
+                "overriden": false
+              }
+            ],
+            "assignedToAll": true,
+            "locationRefs": [],
+            "locations": [],
+            "status": "active"
+          }
+        ],
+        "status": "active",
+        "createdAt": "2023-09-22T05:49:21.391Z",
+        "updatedAt": "2023-09-23T06:32:18.498Z",
+        "__v": 0
+      }
+    ],
+    "total": 2
+  },
+  "vendorcreate": [
     {
-      "name": { "en": "VariantName", "ar": "Nom de la variante" },
-      "sku": "VariantSKU123",
-      "parentSku": null,
-      "type": "item",
-      "unit": "perGram",
-      "price": 5.99,
-      "costPrice": 5.99,
-      "prices": [
-        {
-          "locationRef": "LocationObjectId1",
-          "location": { "name": "LocationName1" },
-          "price": 5.99,
-          "costPrice": 5.99,
-          "overriden": false
-        }
-      ],
-      "assignedToAll": true,
-      "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
-      "locations": [{ "name": "LocationName1" }, { "name": "LocationName2" }],
-      "status": "active"
+      "image": "",
+      "companyRef": "650c09d146324af3c05d971e",
+      "name": "Vendor One",
+      "tags": ["jhbjk"],
+      "website": "website",
+      "contactName": "name",
+      "email": "email@gmail.com",
+      "phone": "+966-3837443847",
+      "orderEmail": "email@gmail.com",
+      "vendorAverageFulfilment": "4",
+      "averageShippingDay": "6",
+      "address": {
+        "address1": "hyd",
+        "address2": "",
+        "postalCode": "78273",
+        "city": "hyd",
+        "country": "Saudi Arabia",
+        "state": ""
+      },
+      "note": "notes",
+      "status": "active",
+      "id": "tzTP3A",
+      "createdAt": "2023-09-22T05:49:21.391Z",
+      "updatedAt": "2023-09-22T05:49:21.391Z"
+    },
+    {
+      "image": "",
+      "companyRef": "650c09d146324af3c05d971e",
+      "name": "Vendor two",
+      "tags": ["jhbjk"],
+      "website": "website",
+      "contactName": "name",
+      "email": "email@gmail.com",
+      "phone": "+966-3837443847",
+      "orderEmail": "email@gmail.com",
+      "vendorAverageFulfilment": "4",
+      "averageShippingDay": "6",
+      "address": {
+        "address1": "hyd",
+        "address2": "",
+        "postalCode": "78273",
+        "city": "hyd",
+        "country": "Saudi Arabia",
+        "state": ""
+      },
+      "note": "notes",
+      "status": "active",
+      "id": "878tzTP3A",
+      "createdAt": "2023-10-22T05:49:21.391Z",
+      "updatedAt": "2023-10-22T05:49:21.391Z"
     }
   ],
-  "boxes": [
+  "vendorproduct": [
     {
-      "name": { "en": "VariantName", "fr": "Nom de la variante" },
-      "sku": "BOXVariantSKU123",
-      "parentSku": "VariantSKU123",
-      "type": "box",
-      "unit": "perGram",
-      "price": 5.99,
-      "costPrice": 5.99,
-      "prices": [
+      "vendorRef": "tzTP3A",
+      "vendor": { "name": "VendorName" },
+      "productRef": "ProductObjectId456",
+      "companyRef": "CompanyObjectId789",
+      "variants": [
         {
-          "locationRef": "LocationObjectId1",
-          "location": { "name": "LocationName1" },
+          "name": { "en": "VariantName", "ar": "Nom de la variante" },
+          "sku": "VariantSKU123",
+          "parentSku": null,
+          "type": "item",
+          "unit": "perGram",
           "price": 5.99,
           "costPrice": 5.99,
-          "overriden": false
+          "prices": [
+            {
+              "locationRef": "LocationObjectId1",
+              "location": { "name": "LocationName1" },
+              "price": 5.99,
+              "costPrice": 5.99,
+              "overriden": false
+            }
+          ],
+          "assignedToAll": true,
+          "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
+          "locations": [
+            { "name": "LocationName1" },
+            { "name": "LocationName2" }
+          ],
+          "status": "active"
         }
       ],
-      "assignedToAll": true,
-      "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
-      "locations": [{ "name": "LocationName1" }, { "name": "LocationName2" }],
-      "status": "active"
+      "boxes": [
+        {
+          "name": { "en": "VariantName", "fr": "Nom de la variante" },
+          "sku": "BOXVariantSKU123",
+          "parentSku": "VariantSKU123",
+          "type": "box",
+          "unit": "perGram",
+          "price": 5.99,
+          "costPrice": 5.99,
+          "prices": [
+            {
+              "locationRef": "LocationObjectId1",
+              "location": { "name": "LocationName1" },
+              "price": 5.99,
+              "costPrice": 5.99,
+              "overriden": false
+            }
+          ],
+          "assignedToAll": true,
+          "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
+          "locations": [
+            { "name": "LocationName1" },
+            { "name": "LocationName2" }
+          ],
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "vendorRef": "tzTP3A",
+      "vendor": { "name": "VendorName" },
+      "productRef": "ProductObjectId456",
+      "companyRef": "CompanyObjectId789",
+      "variants": [
+        {
+          "name": { "en": "VariantName", "ar": "Nom de la variante" },
+          "sku": "VariantSKU123",
+          "parentSku": null,
+          "type": "item",
+          "unit": "perGram",
+          "price": 5.99,
+          "costPrice": 5.99,
+          "prices": [
+            {
+              "locationRef": "LocationObjectId1",
+              "location": { "name": "LocationName1" },
+              "price": 5.99,
+              "costPrice": 5.99,
+              "overriden": false
+            }
+          ],
+          "assignedToAll": true,
+          "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
+          "locations": [
+            { "name": "LocationName1" },
+            { "name": "LocationName2" }
+          ],
+          "status": "active"
+        }
+      ],
+      "boxes": [
+        {
+          "name": { "en": "VariantName", "fr": "Nom de la variante" },
+          "sku": "BOXVariantSKU123",
+          "parentSku": "VariantSKU123",
+          "type": "box",
+          "unit": "perGram",
+          "price": 5.99,
+          "costPrice": 5.99,
+          "prices": [
+            {
+              "locationRef": "LocationObjectId1",
+              "location": { "name": "LocationName1" },
+              "price": 5.99,
+              "costPrice": 5.99,
+              "overriden": false
+            }
+          ],
+          "assignedToAll": true,
+          "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
+          "locations": [
+            { "name": "LocationName1" },
+            { "name": "LocationName2" }
+          ],
+          "status": "active"
+        }
+      ]
     }
   ]
 }
-
-      ],
-      "total": 3
-    },
-    "vendorcreate": [
-      {
-        "image": "",
-        "companyRef": "650c09d146324af3c05d971e",
-        "name": "Vendor One",
-        "tags": [
-                "jhbjk"
-              ],
-        "website": "website",
-        "contactName": "name",
-        "email": "email@gmail.com",
-        "phone": "+966-3837443847",
-        "orderEmail": "email@gmail.com",
-        "vendorAverageFulfilment": "4",
-        "averageShippingDay": "6",
-        "address": {
-          "address1": "hyd",
-          "address2": "",
-          "postalCode": "78273",
-          "city": "hyd",
-          "country": "Saudi Arabia",
-          "state": ""
-        },
-        "note": "notes",
-        "status": "active",
-        "id": "tzTP3A",
-          "createdAt": "2023-09-22T05:49:21.391Z",
-  "updatedAt": "2023-09-22T05:49:21.391Z"
-      },
-        {
-        "image": "",
-        "companyRef": "650c09d146324af3c05d971e",
-        "name": "Vendor two",
-        "tags": [
-                "jhbjk"
-              ],
-        "website": "website",
-        "contactName": "name",
-        "email": "email@gmail.com",
-        "phone": "+966-3837443847",
-        "orderEmail": "email@gmail.com",
-        "vendorAverageFulfilment": "4",
-        "averageShippingDay": "6",
-        "address": {
-          "address1": "hyd",
-          "address2": "",
-          "postalCode": "78273",
-          "city": "hyd",
-          "country": "Saudi Arabia",
-          "state": ""
-        },
-        "note": "notes",
-        "status": "active",
-        "id": "878tzTP3A",
-          "createdAt": "2023-10-22T05:49:21.391Z",
-  "updatedAt": "2023-10-22T05:49:21.391Z"
-      }
-    ],
-    "product": [
-      {
-    "id": "650d2ae146324af3c0638937",
-    "name": {
-      "en": "Product en",
-      "ar": "product ar"
-    },
-    "image": "",
-    "description": "",
-    "company": {
-      "name": "SHIRAj"
-    },
-    "companyRef": "650c09d146324af3c05d971e",
-    "categoryRef": "650d2a4446324af3c0638894",
-    "category": {
-      "name": "Category"
-    },
-    "brandRef": "64c360c377e2da9600410466",
-    "brand": {
-      "name": "Almarai"
-    },
-    "taxRef": "64c38dbea37cface27cb977c",
-    "tax": {
-      "percentage": 5
-    },
-    "variants": [
-      {
-        "name": {
-          "en": "Varent en",
-          "ar": "varient ar"
-        },
-        "sku": "873228323",
-        "image": "",
-        "unit": "perItem",
-        "price": 200,
-        "prices": [
-          {
-            "locationRef": "650d2ac146324af3c063890a",
-            "location": {
-              "name": "Hyd"
-            },
-            "price": 200,
-            "overriden": false
-          }
-        ],
-        "assignedToAll": true,
-        "locationRefs": [],
-        "locations": [],
-        "status": "active"
-      }
-    ],
-    "status": "active",
-    "createdAt": "2023-09-22T05:49:21.391Z",
-    "updatedAt": "2023-09-22T05:49:21.391Z",
-    "__v": 0
-  },
-     {
-    "id": "7bd837d3g887",
-    "name": {
-      "en": "Product 2 en",
-      "ar": "Product 2 ar"
-    },
-    "image": "image_url2",
-    "description": "Description 2",
-    "company": {
-      "name": "Company 2"
-    },
-    "companyRef": "CompanyRef2",
-    "categoryRef": "CategoryRef2",
-    "category": {
-      "name": "Category 2"
-    },
-    "brandRef": "BrandRef2",
-    "brand": {
-      "name": "Brand 2"
-    },
-    "taxRef": "TaxRef2",
-    "tax": {
-      "percentage": 10
-    },
-    "variants": [
-      {
-        "name": {
-          "en": "Variant 2 en",
-          "ar": "Variant 2 ar"
-        },
-        "sku": "VariantSku2",
-        "image": "variant_image_url2",
-        "unit": "perItem",
-        "price": 300,
-        "prices": [
-          {
-            "locationRef": "LocationRef2",
-            "location": {
-              "name": "Location 2"
-            },
-            "price": 300,
-            "overriden": false
-          }
-        ],
-        "assignedToAll": true,
-        "locationRefs": [],
-        "locations": [],
-        "status": "active"
-      }
-    ],
-    "status": "active",
-    "createdAt": "2023-09-23T08:00:00.000Z",
-    "updatedAt": "2023-09-23T08:00:00.000Z",
-    "__v": 1
-  },  
-  {
-    "id": "asuy782b7dg87",
-    "name": {
-      "en": "Product 3 en",
-      "ar": "Product 3 ar"
-    },
-    "image": "image_url3",
-    "description": "Description 3",
-    "company": {
-      "name": "Company 3"
-    },
-    "companyRef": "CompanyRef3",
-    "categoryRef": "CategoryRef3",
-    "category": {
-      "name": "Category 3"
-    },
-    "brandRef": "BrandRef3",
-    "brand": {
-      "name": "Brand 3"
-    },
-    "taxRef": "TaxRef3",
-    "tax": {
-      "percentage": 15
-    },
-    "variants": [
-      {
-        "name": {
-          "en": "Variant 3 en",
-          "ar": "Variant 3 ar"
-        },
-        "sku": "VariantSku3",
-        "image": "variant_image_url3",
-        "unit": "perItem",
-        "price": 400,
-        "prices": [
-          {
-            "locationRef": "LocationRef3",
-            "location": {
-              "name": "Location 3"
-            },
-            "price": 400,
-            "overriden": false
-          }
-        ],
-        "assignedToAll": true,
-        "locationRefs": [],
-        "locations": [],
-        "status": "active"
-      }
-    ],
-    "status": "active",
-    "createdAt": "2023-09-24T10:00:00.000Z",
-    "updatedAt": "2023-09-24T10:00:00.000Z",
-    "__v": 2
-  }
-    ]
-  }
-  
