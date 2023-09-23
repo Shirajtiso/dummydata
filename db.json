@@ -5,6 +5,7 @@
   "vendorRef": "tzTP3A",
   "vendor": { "name": "VendorName" },
   "productRef": "ProductObjectId456",
+            "name":"name",
   "companyRef": "CompanyObjectId789",
   "variants": [
     {
@@ -58,6 +59,7 @@
           {
   "vendorRef": "tzTP3A",
   "vendor": { "name": "VendorName" },
+               "name":"name2",
   "productRef": "ProductObjectId456",
   "companyRef": "CompanyObjectId789",
   "variants": [
