@@ -1,140 +1,122 @@
 {
-  "products": {
-    "results": [
+  "pogrn": [
+  {
+    "orderNum": "PO123",
+    "orderDate": "2023-09-22T12:00:00Z",
+    "expectedDate": "2023-10-05T12:00:00Z",
+    "orderType": "po",
+    "status": "open",
+    "vendorRef": "5f4e5b0938f64c0e7c09b5b8",
+    "vendor": { "name": "Vendor Name" },
+    "billToRef": "5f4e5b0938f64c0e7c09b5b9",
+    "shipToRef": "5f4e5b0938f64c0e7c09b5ba",
+    "billTo": {
+      "name": {
+        "en": "Bill-To Location Name in English",
+        "ar": "Bill-To Location Name in Arabic"
+      }
+    },
+    "shipTo": {
+      "name": {
+        "en": "Ship-To Location Name in English",
+        "ar": "Ship-To Location Name in Arabic"
+      }
+    },
+    "message": "Optional message",
+    "items": [
       {
-        "id": "650e86b146324af3c063b88f",
+        "productRef": "5f4e5b0938f6c09b5bb",
+        "categoryRef": "5f4938f64c0e7c09b5bc",
+        "sku": "SKU123",
         "name": {
-          "en": "products new",
-          "ar": "new pro"
+          "en": "Product Name English",
+          "ar": "Product Name"
         },
-        "image": "",
-        "description": "",
-        "company": {
-          "name": "SHIRAj"
-        },
-        "companyRef": "650c09d146324af3c05d971e",
-        "categoryRef": "650d2a4446324af3c0638894",
-        "category": {
-          "name": "Category"
-        },
-        "brandRef": "64c360c377e2da9600410466",
-        "brand": {
-          "name": "Almarai"
-        },
-        "taxRef": "64c3600a77e2da9600410416",
-        "tax": {
-          "percentage": 15
-        },
-        "variants": [
-          {
-            "name": {
-              "en": "new pro vand",
-              "ar": "new pro vand"
-            },
-            "sku": "7621676",
-            "image": "",
-            "unit": "perKilogram",
-            "price": 76,
-            "prices": [
-              {
-                "locationRef": "650d2ac146324af3c063890a",
-                "location": {
-                  "name": "Hyd"
-                },
-                "price": 76,
-                "overriden": false
-              }
-            ],
-            "assignedToAll": true,
-            "locationRefs": [],
-            "locations": [],
-            "status": "active"
-          }
-        ],
-        "status": "active",
-        "createdAt": "2023-09-23T06:33:21.922Z",
-        "updatedAt": "2023-09-23T06:33:21.922Z",
-        "__v": 0
+        "quantity": 1,
+        "cost": 20.99,
+        "discount": 2.5,
+        "tax": 2.0,
+        "total": 97.45
       },
       {
-        "id": "650d2ae146324af3c0638937",
+        "productRef": "b0938f64c0e7c09b5bb",
+        "categoryRef": "5f438f64c0e7c09b5bc",
+        "sku": "SKU124",
         "name": {
-          "en": "Product en",
-          "ar": "product ar"
+          "en": "Product Name two",
+          "ar": "Product Name "
         },
-        "image": "",
-        "description": "",
-        "companyRef": "650c09d146324af3c05d971e",
-        "categoryRef": "650d2a4446324af3c0638894",
-        "category": {
-          "name": "Category"
-        },
-        "brandRef": "64c360c377e2da9600410466",
-        "brand": {
-          "name": "Almarai"
-        },
-        "taxRef": "64c38dbea37cface27cb977c",
-        "tax": {
-          "percentage": 5
-        },
-        "variants": [
-          {
-            "name": {
-              "en": "Varent en",
-              "ar": "varient ar"
-            },
-            "sku": "873228323",
-            "image": "",
-            "unit": "perItem",
-            "price": 200,
-            "prices": [
-              {
-                "locationRef": "650d2ac146324af3c063890a",
-                "location": {
-                  "name": "Hyd"
-                },
-                "price": 200,
-                "overriden": false
-              }
-            ],
-            "assignedToAll": true,
-            "locationRefs": [],
-            "locations": [],
-            "status": "active"
-          },
-          {
-            "name": {
-              "en": "new varient",
-              "ar": "new Varient"
-            },
-            "sku": "123421",
-            "image": "",
-            "unit": "perItem",
-            "price": 100,
-            "prices": [
-              {
-                "locationRef": "650d2ac146324af3c063890a",
-                "location": {
-                  "name": "Hyd"
-                },
-                "price": 100,
-                "overriden": false
-              }
-            ],
-            "assignedToAll": true,
-            "locationRefs": [],
-            "locations": [],
-            "status": "active"
-          }
-        ],
-        "status": "active",
-        "createdAt": "2023-09-22T05:49:21.391Z",
-        "updatedAt": "2023-09-23T06:32:18.498Z",
-        "__v": 0
+        "quantity": 2,
+        "cost": 20,
+        "discount": 2,
+        "tax": 2,
+        "total": 97
       }
     ],
-    "total": 2
+    "billing": {
+      "paymentStatus": "unpaid",
+      "fee": 5.0,
+      "freight": 10.0,
+      "total": 105.45,
+      "subTotal": 95.0,
+      "vatAmount": 7.0,
+      "vatPercentage": 7.0,
+      "discountAmount": 0.0,
+      "discountPercentage": 0.0
+    }
   },
+  {
+    "orderNum": "GRN23",
+    "orderDate": "2023-09-22T12:00:00Z",
+    "expectedDate": "2023-10-05T12:00:00Z",
+    "orderType": "grn",
+    "status": "open",
+    "vendorRef": "5f4e5b09c0e7c09b5b8",
+    "vendor": { "name": "Vendor Name" },
+    "billToRef": "5f4e5b0938f64c0e7c09b5b9",
+    "shipToRef": "5f4e5b0938f64c0e7c09b5ba",
+    "billTo": {
+      "name": {
+        "en": "Bill-To Location Name in English",
+        "ar": "Bill-To Location Name in Arabic"
+      }
+    },
+    "shipTo": {
+      "name": {
+        "en": "Ship-To Location Name in English",
+        "ar": "Ship-To Location Name in Arabic"
+      }
+    },
+    "message": "Optional message",
+    "items": [
+      {
+        "productRef": "5f4e5b0938f6c09b5bb",
+        "categoryRef": "5f4938f64c0e7c09b5bc",
+        "sku": "SKU123",
+        "name": {
+          "en": "Product Name English",
+          "ar": "Product Name"
+        },
+        "quantity": 1,
+        "cost": 20.99,
+        "discount": 2.5,
+        "tax": 2.0,
+        "total": 97.45
+      }
+    ],
+    "billing": {
+      "paymentStatus": "unpaid",
+      "fee": 5.0,
+      "freight": 10.0,
+      "total": 105.45,
+      "subTotal": 95.0,
+      "vatAmount": 7.0,
+      "vatPercentage": 7.0,
+      "discountAmount": 0.0,
+      "discountPercentage": 0.0
+    }
+  }
+],
   "vendorcreate": [
     {
       "image": "",
