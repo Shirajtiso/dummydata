@@ -2,7 +2,7 @@
   "products": {
     "results": [
       {
-        "_id": "650e86b146324af3c063b88f",
+        "id": "650e86b146324af3c063b88f",
         "name": {
           "en": "products new",
           "ar": "new pro"
@@ -57,7 +57,7 @@
         "__v": 0
       },
       {
-        "_id": "650d2ae146324af3c0638937",
+        "id": "650d2ae146324af3c0638937",
         "name": {
           "en": "Product en",
           "ar": "product ar"
@@ -191,6 +191,7 @@
   ],
   "vendorproduct": [
     {
+      "id":"8723",
       "vendorRef": "tzTP3A",
       "vendor": { "name": "VendorName" },
       "productRef": "ProductObjectId456",
@@ -251,6 +252,7 @@
       ]
     },
     {
+      "id":"878382"
       "vendorRef": "tzTP3A",
       "vendor": { "name": "VendorName" },
       "productRef": "ProductObjectId456",
