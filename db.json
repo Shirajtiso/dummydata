@@ -209,7 +209,7 @@
       ],
       "boxes": [
         {
-          "name": { "en": "VariantName", "fr": "Nom de la variante" },
+          "name": { "en": "nox 1", "fr": "Nom de la variante" },
           "sku": "BOXVariantSKU123",
           "parentSku": "VariantSKU123",
           "type": "box",
