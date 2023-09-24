@@ -270,7 +270,7 @@
       ],
       "boxes": [
         {
-          "name": { "en": "VariantName", "fr": "Nom de la variante" },
+          "name": { "en": "Boxname", "fr": "Nom de la variante" },
           "sku": "BOXVariantSKU123",
           "parentSku": "VariantSKU123",
           "type": "box",
