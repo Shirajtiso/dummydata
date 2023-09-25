@@ -254,8 +254,8 @@
             {
               "locationRef": "LocationObjectId1",
               "location": { "name": "LocationName1" },
-              "price": 5.99,
-              "costPrice": 5.99,
+              "price": 59,
+              "costPrice": 49,
               "overriden": false
             }
           ],
@@ -275,8 +275,8 @@
           "parentSku": "VariantSKU123",
           "type": "box",
           "unit": "perGram",
-          "price": 5.99,
-          "costPrice": 5.99,
+          "price": 69,
+          "costPrice": 99,
           "prices": [
             {
               "locationRef": "LocationObjectId1",
