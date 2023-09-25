@@ -243,7 +243,7 @@
       "companyRef": "CompanyObjectId789",
       "variants": [
         {
-          "name": { "en": "VariantName", "ar": "Nom de la variante" },
+          "name": { "en": "Variant one", "ar": "Nom de la variante" },
           "sku": "VariantSKU123",
           "parentSku": null,
           "type": "item",
