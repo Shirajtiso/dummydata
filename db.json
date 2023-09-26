@@ -179,6 +179,7 @@
       "vendorRef": "tzTP3A",
       "vendor": { "name": "VendorName" },
       "productRef": "ProductObjectId456",
+      "name": { "en": "Product name", "ar": "VendorName" },
       "companyRef": "CompanyObjectId789",
       "variants": [
         {
@@ -240,6 +241,7 @@
       "vendorRef": "tzTP3A",
       "vendor": { "name": "VendorName" },
       "productRef": "ProductObjectId456",
+      "name": { "en": "Product name", "ar": "VendorName" },
       "companyRef": "CompanyObjectId789",
       "variants": [
         {
