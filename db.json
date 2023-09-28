@@ -1,6 +1,5 @@
 {
-    "pogrn": {
-   "results": [ 
+    "pogrn": [ 
      {
       "id": "hdhgdsP3A",
       "orderNum": "PO123",
@@ -120,8 +119,6 @@
       }
     }
 ],
-"total": "2"
-},
     "vendorcreate": [
       {
         "image": "",
