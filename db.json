@@ -295,6 +295,31 @@
             { "name": "LocationName2" }
           ],
           "status": "active"
+        },
+          {
+          "name": { "en": "Boxname", "fr": "Nom de la variante" },
+          "sku": "OXVarianKU123",
+          "parentSku": "Vari56",
+          "type": "box",
+          "unit": "perGram",
+          "price": 6,
+          "costPrice": 99,
+          "prices": [
+            {
+              "locationRef": "LocationObjectId1",
+              "location": { "name": "LocationName1" },
+              "price": 59,
+              "costPrice": 59,
+              "overriden": false
+            }
+          ],
+          "assignedToAll": true,
+          "locationRefs": ["LocationObjectId1", "LocationObjectId2"],
+          "locations": [
+            { "name": "LocationName1" },
+            { "name": "LocationName2" }
+          ],
+          "status": "active"
         }
       ]
     }
