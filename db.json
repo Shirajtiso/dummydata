@@ -278,6 +278,7 @@
             { "name": "LocationName1" },
             { "name": "LocationName2" }
           ],
+            "createdAt": "2023-11-03T11:22:01.280Z",
           "status": "active"
         }
       ]
@@ -365,6 +366,7 @@
             { "name": "LocationName1" },
             { "name": "LocationName2" }
           ],
+              "createdAt": "2023-10-03T11:22:01.280Z",
           "status": "active"
         }
       ]
