@@ -157,7 +157,7 @@
         }
       ],
       "billing": {
-        "paymentStatus": "unpaid",
+        "paymentStatus": "paid",
         "fee": 5.0,
         "freight": 10.0,
         "total": 105.45,
