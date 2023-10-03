@@ -26,8 +26,22 @@
         "locations": { "name": "My Location" },
         "vendor": "vedor 1",
         "totalcost": "45.00",
-        "adjustment": "5",
-        "adjustmentType": "received",
+        "adjustment": "2",
+        "adjustmentType": "damage",
+        "id": "svhuih8P3A"
+      }, {
+        "product": "Product2",
+        "varient": "small",
+           "type": "item",
+          
+        "companyRef": "6491af045cb3bda41c3b02ba",
+        "datetime": "2023-10-02T07:21:13.352Z",
+        "sku": "SKU2123",
+        "locations": { "name": "Hyd" },
+        "vendor": "Shiraj",
+        "totalcost": "215.00",
+        "adjustment": "2",
+        "adjustmentType": "re-countd",
         "id": "svhuih8P3A"
       }
     ],
