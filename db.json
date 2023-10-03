@@ -49,8 +49,9 @@
      {
       "id": "hdhgdsP3A",
       "orderNum": "PO123",
+         "createdAt": "2023-09-22T05:49:21.391Z",
       "orderDate": "2023-09-22T12:00:00Z",
-      "expectedDate": "2023-10-05T12:00:00Z",
+      "expectedDate": "2023-11-05T12:00:00Z",
       "orderType": "po",
       "status": "open",
       "vendorRef": "5f4e5b0938f64c0e7c09b5b8",
@@ -117,6 +118,7 @@
       "orderNum": "GRN23",
       "orderDate": "2023-09-22T12:00:00Z",
       "expectedDate": "2023-10-05T12:00:00Z",
+        "createdAt": "2023-10-22T05:49:21.391Z",
       "orderType": "grn",
       "status": "open",
       "vendorRef": "5f4e5b09c0e7c09b5b8",
