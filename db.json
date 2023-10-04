@@ -66,18 +66,13 @@
       "billToRef": "5f4e5b0938f64c0e7c09b5b9",
       "shipToRef": "5f4e5b0938f64c0e7c09b5ba",
       "billTo": {
-        "name": {
-          "en": "Bill-To Location Name in English",
-          "ar": "Bill-To Location Name in Arabic"
-        }
+        "name":  "Bill-To Location Name "
+        
       },
       "shipTo": {
-        "name": {
-          "en": "Ship-To Location Name in English",
-          "ar": "Ship-To Location Name in Arabic"
-        }
+        "name":  "Ship-To Location Name "
       },
-      "message": "Optional message",
+      "note": "Optional message",
       "items": [
         {
           "productRef": "5f4e5b0938f6c09b5bb",
@@ -134,18 +129,13 @@
       "billToRef": "5f4e5b0938f64c0e7c09b5b9",
       "shipToRef": "5f4e5b0938f64c0e7c09b5ba",
       "billTo": {
-        "name": {
-          "en": "Bill-To Location Name in English",
-          "ar": "Bill-To Location Name in Arabic"
-        }
+        "name": "Bill-To Locationh"
       },
       "shipTo": {
-        "name": {
-          "en": "Ship-To Location Name in English",
-          "ar": "Ship-To Location Name in Arabic"
-        }
+        "name":  "Ship-To"
+       
       },
-      "message": "Optional message",
+      "note": "Optional message",
       "items": [
         {
           "productRef": "5f4e5b0938f6c09b5bb",
