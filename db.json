@@ -60,7 +60,7 @@
       "orderDate": "2023-09-22T12:00:00Z",
       "expectedDate": "2023-11-05T12:00:00Z",
       "orderType": "poWithGRN",
-      "status": "open",
+      "status": "overdue",
       "vendorRef": "5f4e5b0938f64c0e7c09b5b8",
       "vendor": { "name": "Vendor Name" },
       "billToRef": "5f4e5b0938f64c0e7c09b5b9",
