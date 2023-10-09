@@ -671,6 +671,55 @@
         }
     ]
 }
+    ],
+    
+     "stockaction":[
+      {
+          "id": "651a6fe104dec0fb62b6d0f5",
+        "createdAt": "2023-10-02T07:23:13.352Z",
+        
+    "companyRef": "60dd9ee2ca587a48ce10f7d1",
+    "company": {
+        "name": "ABC Company"
+    },
+    "productRef": "60dd9ee2ca587a48ce10f7d2",
+    "product": {
+        "name": {
+            "en": "Laptop",
+            "ar": "Ordenador portátil"
+        },
+        "type": "item",
+        "sku": "LAPTOP-123"
+    },
+    "variant": {
+        "name": {
+            "en": "Laptop Pro",
+            "ar": "Ordenador portátil Pro"
+        },
+        "type": "item",
+        "sku": "LAPTOP-PRO-123"
+    },
+    "locationRef": "60dd9ee2ca587a48ce10f7d3",
+    "location": {
+        "name": "New York Warehouse"
+    },
+    "sku": "SKU123",
+    "vendorRef": "60dd9ee2ca587a48ce10f7d4",
+    "vendor": {
+        "name": "TechVendor"
+    },
+    "price": 1200.50,
+    "count": 100,
+    "action": "add",
+    "sourceRef": "SourceRef123",
+    "destRef": "DestRef123",
+    "available": 50,
+    "transfer": 10,
+    "received": 10,
+    "availableSource": 50,
+    "transferSource": 10,
+    "receivedSource": 10
+     }
     ]
     
 }
