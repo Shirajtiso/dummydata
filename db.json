@@ -395,5 +395,282 @@
         "email": "ahmed@gmail.com",
         "updatedAt": "2023-10-02T07:19:15.931Z"
       }
+    ],
+    "product":[
+      {
+          "id": "651a6ef404dec0fb62b6b983",
+          "createdAt": "2023-10-02T07:23:13.352Z",
+    "image": "",
+    "name": {
+        "en": "Product Name en",
+        "ar": "Product Name Ar"
+    },
+    "description": "Description",
+    "companyRef": "64e5c9c51d35555550221f22",
+    "company": {
+        "name": "Shiraj"
+    },
+    "brandRef": "64e85023eef761ae5d42bd40",
+    "brand": {
+        "name": "Electronic"
+    },
+    "categoryRef": "65170fa737b3e092fa7d5f72",
+    "category": {
+        "name": "cart"
+    },
+    "taxRef": "64e5af3c5557ec59100f0958",
+    "tax": {
+        "percentage": 15
+    },
+    "enabledBatching": true,
+    "isLooseItem": false,
+    "variants": [
+        {
+            "assignedToAll": false,
+            "locations": [
+                {
+                    "name": "Tolichowki"
+                },
+                {
+                    "name": "Riyadh"
+                }
+            ],
+            "locationRefs": [
+                "64e5b0bc2a408252c04a2a75",
+                "64e5b1442a408252c04a2b65"
+            ],
+            "image": "",
+            "name": {
+                "en": "Variant NAme",
+                "ar": "variant name ar"
+            },
+            "sku": "VSKU1234",
+            "unit": "perItem",
+            "price": "12",
+            "status": "active",
+            "stocks": [
+                {
+                    "enabledTracking": true,
+                    "markSoldOut": false,
+                    "stockCount": 10,
+                    "enabledLowStockAlert": true,
+                    "lowStockCount": 5,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": true,
+                    "markSoldOut": false,
+                    "stockCount": 12,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                },
+                {
+                    "enabledTracking": false,
+                    "markSoldOut": false,
+                    "stockCount": 0,
+                    "enabledLowStockAlert": false,
+                    "lowStockCount": 0,
+                    "location": {}
+                }
+            ]
+        }
+    ],
+    "boxes": [
+        {
+            "type": "box",
+            "parentSku": "VSKU1234",
+            "sku": "BOX1SKU12",
+            "unitBox": "10",
+            "costPrice": "120",
+            "sellingPrice": "130"
+        },
+        {
+            "type": "box",
+            "parentSku": "VSKU1234",
+            "sku": "BOX2SKU123",
+            "unitBox": "5",
+            "costPrice": "60",
+            "sellingPrice": "70"
+        }
     ]
+}
+    ]
+    
 }
