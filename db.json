@@ -398,278 +398,355 @@
     ],
     "product":[
       {
-          "id": "651a6ef404dec0fb62b6b983",
+         
           "createdAt": "2023-10-02T07:23:13.352Z",
-    "image": "",
-    "name": {
-        "en": "Product Name en",
-        "ar": "Product Name Ar"
-    },
-    "description": "Description",
-    "companyRef": "64e5c9c51d35555550221f22",
-    "company": {
-        "name": "Shiraj"
-    },
-    "brandRef": "64e85023eef761ae5d42bd40",
-    "brand": {
-        "name": "Electronic"
-    },
-    "categoryRef": "65170fa737b3e092fa7d5f72",
-    "category": {
-        "name": "cart"
-    },
-    "taxRef": "64e5af3c5557ec59100f0958",
-    "tax": {
-        "percentage": 15
-    },
-    "enabledBatching": true,
-    "isLooseItem": false,
-    "variants": [
-        {
-            "assignedToAll": false,
-            "locations": [
-                {
-                    "name": "Tolichowki"
-                },
-                {
-                    "name": "Riyadh"
-                }
-            ],
-            "locationRefs": [
-                "64e5b0bc2a408252c04a2a75",
-                "64e5b1442a408252c04a2b65"
-            ],
-            "image": "",
-            "name": {
-                "en": "Variant NAme",
-                "ar": "variant name ar"
-            },
-            "sku": "VSKU1234",
-            "unit": "perItem",
-            "price": "12",
-            "status": "active",
-            "stocks": [
-                {
-                    "enabledTracking": true,
-                    "markSoldOut": false,
-                    "stockCount": 10,
-                    "enabledLowStockAlert": true,
-                    "lowStockCount": 5,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": true,
-                    "markSoldOut": false,
-                    "stockCount": 12,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                },
-                {
-                    "enabledTracking": false,
-                    "markSoldOut": false,
-                    "stockCount": 0,
-                    "enabledLowStockAlert": false,
-                    "lowStockCount": 0,
-                    "location": {}
-                }
-            ]
-        }
-    ],
-    "boxes": [
-        {
-            "type": "box",
-            "parentSku": "VSKU1234",
-            "sku": "BOX1SKU12",
-            "unitBox": "10",
-            "costPrice": "120",
-            "sellingPrice": "130"
+           "image": "",
+        "name": {
+            "en": "ProDuct NAme ",
+            "ar": "Product name Ar"
         },
-        {
-            "type": "box",
-            "parentSku": "VSKU1234",
-            "sku": "BOX2SKU123",
-            "unitBox": "5",
-            "costPrice": "60",
-            "sellingPrice": "70"
-        }
-    ]
+        "description": "desc",
+        "companyRef": "64e5c9c51d35555550221f22",
+        "company": {
+            "name": "Shiraj"
+        },
+        "brandRef": "64e85023eef761ae5d42bd40",
+        "brand": {
+            "name": "Electronic"
+        },
+        "categoryRef": "65170fa737b3e092fa7d5f72",
+        "category": {
+            "name": "cart"
+        },
+        "taxRef": "64e5af3c5557ec59100f0958",
+        "tax": {
+            "percentage": 15
+        },
+        "enabledBatching": true,
+        "isLooseItem": false,
+        "variants": [
+            {
+                "assignedToAll": false,
+                "locations": [
+                    {
+                        "name": "Location 1"
+                    },
+                    {
+                        "name": "Riyadh"
+                    }
+                ],
+                "locationRefs": [
+                    "64e5b29f2a408252c04a2cbc",
+                    "64e5b1442a408252c04a2b65"
+                ],
+                "image": "",
+                "name": {
+                    "en": "Variant NAme",
+                    "ar": "variant name ar"
+                },
+                "sku": "PROSKU",
+                "unit": "perKilogram",
+                "price": "10",
+                "status": "active",
+                "stocks": [
+                    {
+                        "enabledTracking": true,
+                        "markSoldOut": false,
+                        "stockCount": 10,
+                        "enabledLowStockAlert": true,
+                        "lowStockCount": 2,
+                        "locationRef": "64e5b0bc2a408252c04a2a75",
+                        "location": {
+                            "name": "Tolichowki"
+                        }
+                    },
+                    {
+                        "enabledTracking": true,
+                        "markSoldOut": false,
+                        "stockCount": 16,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64e5b1442a408252c04a2b65",
+                        "location": {
+                            "name": "Riyadh"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64e5b29f2a408252c04a2cbc",
+                        "location": {
+                            "name": "Location 1"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64e5ca101d35555550221f3b",
+                        "location": {
+                            "name": "Hyd"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64e75fdceef761ae5d42b291",
+                        "location": {
+                            "name": "LOCATION 2"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64f595b276b79681c2a83406",
+                        "location": {
+                            "name": "Hameed Grocery Stores"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64f9c67c6d2286c3c751f3ed",
+                        "location": {
+                            "name": "Hitech City "
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64f9de3c6d2286c3c75208ba",
+                        "location": {
+                            "name": "Riyadh"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "64fef8895fcd8b11d6cd7fc8",
+                        "location": {
+                            "name": "GG Groceries Riyadh"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651a7bfd84af659e8e7305a2",
+                        "location": {
+                            "name": "location 1"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651a891b84af659e8e7319a3",
+                        "location": {
+                            "name": "location 1"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e3985b22a309c8e2f93af",
+                        "location": {
+                            "name": "YG Supermarket, Riyadh"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e3b30b22a309c8e2f9401",
+                        "location": {
+                            "name": "YG Supermarket, Jeddah"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e7c32b22a309c8e2fe2bc",
+                        "location": {
+                            "name": " D6 Locations "
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e88b2b22a309c8e2febe7",
+                        "location": {
+                            "name": "D2"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8a79b22a309c8e2fed20",
+                        "location": {
+                            "name": "D4"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8bf5b22a309c8e2fee41",
+                        "location": {
+                            "name": "d5"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8c18b22a309c8e2fee6a",
+                        "location": {
+                            "name": "D7"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8c58b22a309c8e2fee8b",
+                        "location": {
+                            "name": "D6"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8c87b22a309c8e2feedf",
+                        "location": {
+                            "name": "L7"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8cfeb22a309c8e2fef3f",
+                        "location": {
+                            "name": "L8"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8f04b22a309c8e2ffa42",
+                        "location": {
+                            "name": "l9"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8f2cb22a309c8e2ffbbc",
+                        "location": {
+                            "name": "L10"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "651e8f52b22a309c8e2ffbe5",
+                        "location": {
+                            "name": "L11"
+                        }
+                    },
+                    {
+                        "enabledTracking": false,
+                        "markSoldOut": false,
+                        "stockCount": 0,
+                        "enabledLowStockAlert": false,
+                        "lowStockCount": 0,
+                        "locationRef": "65210194330dad7b73ba4ebc",
+                        "location": {
+                            "name": "Test"
+                        }
+                    }
+                ]
+            }
+        ],
+        "boxes": [
+            {
+                "type": "box",
+                "parentSku": "PROSKU",
+                "sku": "BOXSKU123",
+                "unitBox": "10",
+                "costPrice": "100",
+                "sellingPrice": "110"
+            },
+            {
+                "type": "box",
+                "parentSku": "PROSKU",
+                "sku": "BOXSKU213",
+                "unitBox": "5",
+                "costPrice": "50",
+                "sellingPrice": "51"
+            }
+        ],
+        "id": "1IPDqPw"
+    
 }
     ],
     
